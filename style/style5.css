@@ -1,0 +1,43 @@
+header {
+    
+    background-color: rgb(134, 123, 110,1);
+    position: fixed;top:0px; bottom: 90%; width:100%;
+
+}
+header:hover { 
+    background-color: rgb(70, 45, 17);
+
+}
+#left {
+    position: fixed; left: 1%;
+}
+#img1 {
+    position: relative;
+    width: 8%;
+
+}
+#img2 {
+    position: fixed;
+    width: 6%;
+}
+#right {
+    position: fixed; right: 9%;
+}
+#centerleft {
+    position: absolute;
+    top:20%;left:15%; width:30%;
+}
+#centerright {
+    position: absolute;
+    top:20%;right:15%; width: 30%;
+    border-right: brown 5px;
+    
+}
+footer {
+    background-color: rgba(11, 11, 223,0.5);
+    position: absolute;
+    bottom: 0;top:85%; width: 100%;
+}
+footer:hover {
+    background-color: rgb(11, 11, 223);
+}
